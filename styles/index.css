@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0px; /*왼쪽 위쪽 빈공간 생기는 거 없애기*/
+}
+
+header{
+    width: 400px;
+    height: 60px;
+    background-color: brown;
+    color:white;
+}
