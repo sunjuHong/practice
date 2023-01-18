@@ -3,9 +3,42 @@
     margin: 0px; /*왼쪽 위쪽 빈공간 생기는 거 없애기*/
 }
 
-header{
+.wrapper{
+    width: 400px;
+    height: 600px;
+    background-color: pink;
+}
+
+.title{
     width: 400px;
     height: 60px;
-    background-color: brown;
-    color:white;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+
+
+.left{
+    width: 250px;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0px 7px 3px;
+
+}
+
+.right{
+    width: 150px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
