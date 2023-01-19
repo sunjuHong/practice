@@ -1,43 +1,35 @@
 * {
     box-sizing: border-box;
-    margin: 0px; /*왼쪽 위쪽 빈공간 생기는 거 없애기*/
+    margin: 0px;
+    /*margin: 0px; 왼쪽 위쪽 빈공간 생기는 거 없애기*/
 }
 
-.wrapper{
-    width: 400px;
-    height: 600px;
-    background-color: pink;
+h2{
+    background-color: blanchedalmond;
+    font-size: 50px;
+    text-align: center;
+    margin:0px;
+    padding: 40px;
+    border-style: none none solid none;
+    border-bottom-color: brown;
 }
 
-.title{
-    width: 400px;
-    height: 60px;
-    color:black;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
+ol{
+    border-right: 1px solid brown;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
 }
 
-
-
-.left{
-    width: 230px;
-    height: 500px;
-    float: left;
-    margin-right: 3px;
-    margin-top:10px;
-    background-color: yellow;
-
+#grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+#grid ol{
+    padding-left:33px;
 }
 
-.right{
-    width: 150px;
-    height: 500px;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    float: right;
-    margin-top:10px;
+#grid #contents{
+    padding-left: 25px;
+    padding-top: 30px;
 }
-
